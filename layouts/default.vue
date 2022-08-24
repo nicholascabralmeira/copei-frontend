@@ -14,8 +14,11 @@
             <b-navbar-item tag="router-link" :to="{ path: '/' }">
                 Home
             </b-navbar-item>
+            <b-navbar-item tag="router-link" :to="{ path: '/estadios' }">
+                Estadio
+            </b-navbar-item>
             <b-navbar-item tag="router-link" :to="{ path: '/sobre' }">
-                Sobre
+                Especiais
             </b-navbar-item>
         </template>
 
