@@ -23,7 +23,7 @@
           <img src="https://bulma.io/images/placeholders/128x128.png">
         </figure>
         <div class="buttons">
-          <b-button type="is-warning" expanded>Lusail</b-button>
+          <b-button type="is-warning" expanded>Qatar</b-button>
         </div>
       </div>
     </div>
@@ -53,24 +53,20 @@
     <!-- COLUNAS 3-->
     
     <div class="column is-3">
-      <div class="estadio mb-5">
-        <figure class="image is-150x150">
-          <img src="https://bulma.io/images/placeholders/128x128.png">
-        </figure>
-        <div class="buttons">
-          <b-button type="is-warning" expanded>Ahamad Bin Ali</b-button>
-        </div>
+      <figure class="image is-150x150">
+        <img src="https://bulma.io/images/placeholders/128x128.png">
+      </figure>
+      <div class="buttons">
+        <b-button type="is-warning" expanded>Qatar</b-button>
       </div>
 
-      <div class="estadio mb-5">
-        <figure class="image is-150x150">
-          <img src="https://bulma.io/images/placeholders/128x128.png">
-        </figure>
-        <div class="buttons">
-          <b-button type="is-warning" expanded>Education City</b-button>
-        </div>
+      <figure class="image is-150x150">
+        <img src="https://bulma.io/images/placeholders/128x128.png">
+      </figure>
+      <div class="buttons">
+        <b-button type="is-warning" expanded>Qatar</b-button>
       </div>
-           
+      
     </div>
 
      <!-- COLUNAS 4-->
