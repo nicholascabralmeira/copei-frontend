@@ -20,6 +20,9 @@
             <b-navbar-item tag="router-link" :to="{ path: '/sobre' }">
                 Especiais
             </b-navbar-item>
+            <b-navbar-item tag="router-link" :to="{ path: '/fig' }">
+                Figurinha
+            </b-navbar-item>
         </template>
 
         <template #end>
