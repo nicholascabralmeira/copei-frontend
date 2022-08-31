@@ -23,7 +23,7 @@
           <img src="https://bulma.io/images/placeholders/128x128.png">
         </figure>
         <div class="buttons">
-          <b-button type="is-warning" expanded>Qatar</b-button>
+          <b-button type="is-warning" expanded>XXXX</b-button>
         </div>
       </div>
     </div>
@@ -53,20 +53,14 @@
 
     <!-- COLUNAS 3-->
     <div class="column is-3">
-      <figure class="image is-150x150">
-        <img src="https://bulma.io/images/placeholders/128x128.png">
-      </figure>
-      <div class="buttons">
-        <b-button type="is-warning" expanded>Qatar</b-button>
+            <div>
+        <figure class="image is-150x150">
+          <img src="https://bulma.io/images/placeholders/128x128.png">
+        </figure>
+        <div class="buttons">
+          <b-button type="is-warning" expanded>Qatar</b-button>
+        </div>
       </div>
-
-      <figure class="image is-150x150">
-        <img src="https://bulma.io/images/placeholders/128x128.png">
-      </figure>
-      <div class="buttons">
-        <b-button type="is-warning" expanded>Qatar</b-button>
-      </div>
-      
     </div>
 
      <!-- COLUNAS 4-->
