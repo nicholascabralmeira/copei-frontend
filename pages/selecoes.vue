@@ -1,7 +1,7 @@
 <template>
   <section class="section">
     <h1 class="title">Brasil</h1>
-    <div class="columns">
+    <div class="columns ">
       <!-- COLUNA 1-->
     
       <div class="column">
@@ -26,7 +26,7 @@
               </figure>
             </div>
           </div>
-          <br>
+          
           <!-- SEPARACAO EM 4 -->
           <div class="columns mt-5">
             <!-- PRIMEIRA COLUNA -->
@@ -34,17 +34,17 @@
               <!-- Atleta 1 -->
               <div class="atleta mb-6">
                 <figure class="image is-150x150">
-                  <img src="../assets/fig.png" />
+                  <img src="../assets/atleta.png"/>
                 </figure>
                 <div class="buttons">
                   <b-button type="is-warning" expanded> Casemiro </b-button>
                 </div>
               </div>
-              <br>
+              
               <!-- Atleta 2 -->
               <div class="atleta mb-6">
                 <figure class="image is-150x150">
-                  <img src="../assets/fig.png" />
+                  <img src="../assets/atleta.png" />
                 </figure>
                 <div class="buttons">
                   <b-button type="is-warning" expanded> Casemiro </b-button>
@@ -57,17 +57,17 @@
               <!-- Atleta 1 -->
               <div class="atleta mb-6">
                 <figure class="image is-150x150">
-                  <img src="../assets/fig.png" />
+                  <img src="../assets/atleta.png" />
                 </figure>
                 <div class="buttons">
                   <b-button type="is-warning" expanded> Casemiro </b-button>
                 </div>
               </div>
-              <br>
+              
               <!-- Atleta 2 -->
               <div class="atleta mb-6">
                 <figure class="image is-150x150">
-                  <img src="../assets/fig.png" />
+                  <img src="../assets/atleta.png"/>
                 </figure>
                 <div class="buttons">
                   <b-button type="is-warning" expanded> Casemiro </b-button>
@@ -80,17 +80,17 @@
               <!-- Atleta 1 -->
               <div class="atleta mb-6">
                 <figure class="image is-150x150">
-                  <img src="../assets/fig.png" />
+                  <img src="../assets/atleta.png" />
                 </figure>
                 <div class="buttons">
                   <b-button type="is-warning" expanded> Casemiro </b-button>
                 </div>
               </div>
-              <br>
+              
               <!-- Atleta 2 -->
               <div class="atleta mb-6">
                 <figure class="image is-150x150">
-                  <img src="../assets/fig.png" />
+                  <img src="../assets/atleta.png" />
                 </figure>
                 <div class="buttons">
                   <b-button type="is-warning" expanded> Casemiro </b-button>
@@ -102,17 +102,17 @@
               <!-- Atleta 1 -->
               <div class="atleta mb-6">
                 <figure class="image is-150x150">
-                  <img src="../assets/fig.png" />
+                  <img src="../assets/atleta.png"/>
                 </figure>
                 <div class="buttons">
                   <b-button type="is-warning" expanded> Casemiro </b-button>
                 </div>
               </div>
-              <br>
+              
               <!-- Atleta 2 -->
               <div class="atleta mb-5">
                 <figure class="image is-150x150">
-                  <img src="../assets/fig.png" />
+                  <img src="../assets/atleta.png" />
                 </figure>
                 <div class="buttons">
                   <b-button type="is-warning" expanded> Alisson </b-button>
@@ -124,12 +124,12 @@
       
 
         <!-- COLUNAS 2 -->
-        <div class="column">
+        <div class="column ">
           <div class="columns">
             <div class="column">
               <div class="atleta mb-5">
                 <figure class="image is-150x150">
-                  <img src="../assets/fig.png" />
+                  <img src="../assets/atleta.png" />
                 </figure>
                 <div class="buttons">
                   <b-button type="is-warning" expanded>
@@ -140,7 +140,7 @@
 
               <div class="atleta mb-5">
                 <figure class="image is-150x150">
-                  <img src="../assets/fig.png" />
+                  <img src="../assets/atleta.png" />
                 </figure>
                 <div class="buttons">
                   <b-button type="is-warning" expanded>
@@ -151,7 +151,7 @@
 
               <div class="atleta mb-5">
                 <figure class="image is-150x150">
-                  <img src="../assets/fig.png" />
+                  <img src="../assets/atleta.png" />
                 </figure>
                 <div class="buttons">
                   <b-button type="is-warning" expanded>
@@ -163,7 +163,7 @@
             <div class="column">
               <div class="atleta mb-5">
                 <figure class="image is-150x150">
-                  <img src="../assets/fig.png" />
+                  <img src="../assets/atleta.png" />
                 </figure>
                 <div class="buttons">
                   <b-button type="is-warning" expanded>
@@ -174,7 +174,7 @@
 
               <div class="atleta mb-5">
                 <figure class="image is-150x150">
-                  <img src="../assets/fig.png" />
+                  <img src="../assets/atleta.png" />
                 </figure>
                 <div class="buttons">
                   <b-button type="is-warning" expanded>
@@ -185,7 +185,7 @@
 
               <div class="atleta mb-5">
                 <figure class="image is-150x150">
-                  <img src="../assets/fig.png" />
+                  <img src="../assets/atleta.png" />
                 </figure>
                 <div class="buttons">
                   <b-button type="is-warning" expanded>
@@ -197,7 +197,7 @@
             <div class="column">
               <div class="atleta mb-5">
                 <figure class="image is-150x150">
-                  <img src="../assets/fig.png" />
+                  <img src="../assets/atleta.png" />
                 </figure>
                 <div class="buttons">
                   <b-button type="is-warning" expanded>
@@ -208,7 +208,7 @@
 
               <div class="atleta mb-5">
                 <figure class="image is-150x150">
-                  <img src="../assets/fig.png" />
+                  <img src="../assets/atleta.png" />
                 </figure>
                 <div class="buttons">
                   <b-button type="is-warning" expanded>
@@ -219,7 +219,7 @@
 
               <div class="atleta mb-5">
                 <figure class="image is-150x150">
-                  <img src="../assets/fig.png" />
+                  <img src="../assets/atleta.png" />
                 </figure>
                 <div class="buttons">
                   <b-button type="is-warning" expanded>
@@ -231,7 +231,7 @@
             <div class="column">
               <div class="atleta mb-5">
                 <figure class="image is-150x150">
-                  <img src="../assets/fig.png" />
+                  <img src="../assets/atleta.png" />
                 </figure>
                 <div class="buttons">
                   <b-button type="is-warning" expanded>
@@ -242,7 +242,7 @@
 
               <div class="atleta mb-5">
                 <figure class="image is-150x150">
-                  <img src="../assets/fig.png" />
+                  <img src="../assets/atleta.png" />
                 </figure>
                 <div class="buttons">
                   <b-button type="is-warning" expanded>
@@ -253,7 +253,7 @@
 
               <div class="atleta mb-5">
                 <figure class="image is-130x130">
-                  <img src="../assets/fig.png" />
+                  <img src="../assets/atleta.png" />
                 </figure>
                 <div class="buttons">
                   <b-button type="is-warning" expanded>
