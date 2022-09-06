@@ -10,7 +10,7 @@
         <!-- ESTADIO 1 -->
         <div class="estadio mb-5">
           <figure class="image is-150x150">
-            <img src="https://bulma.io/images/placeholders/128x128.png" />
+            <img src="https://www.cimentoitambe.com.br/wp-content/uploads/2021/11/Al-Janoub.jpg" />
           </figure>
           <div class="buttons">
             <b-button type="is-warning" expanded> Al bayt Satadium </b-button>
@@ -20,7 +20,7 @@
         <!-- ESTADIO 2 -->
         <div class="estadio mb-5">
           <figure class="image is-150x150">
-            <img src="https://bulma.io/images/placeholders/128x128.png" />
+            <img src="https://www.cimentoitambe.com.br/wp-content/uploads/2021/11/Al-Janoub.jpg"/>
           </figure>
           <div class="buttons">
             <b-button type="is-warning" expanded>Qatar</b-button>
@@ -32,7 +32,7 @@
       <div class="column is-3">
         <div class="estadio mb-5">
           <figure class="image is-150x150">
-            <img src="https://bulma.io/images/placeholders/128x128.png" />
+            <img src="https://www.cimentoitambe.com.br/wp-content/uploads/2021/11/Al-Janoub.jpg" />
           </figure>
           <div class="buttons">
             <b-button type="is-warning" expanded
@@ -43,7 +43,7 @@
 
         <div class="estadio mb-5">
           <figure class="image is-150x150">
-            <img src="https://bulma.io/images/placeholders/128x128.png" />
+            <img src="https://www.cimentoitambe.com.br/wp-content/uploads/2021/11/Al-Janoub.jpg" />
           </figure>
           <div class="buttons">
             <b-button type="is-warning" expanded>Stadium 974</b-button>
@@ -55,14 +55,14 @@
 
       <div class="column is-3">
         <figure class="image is-150x150">
-          <img src="https://bulma.io/images/placeholders/128x128.png" />
+          <img src="https://www.cimentoitambe.com.br/wp-content/uploads/2021/11/Al-Janoub.jpg" />
         </figure>
         <div class="buttons">
           <b-button type="is-warning" expanded>Qatar</b-button>
         </div>
 
         <figure class="image is-150x150">
-          <img src="https://bulma.io/images/placeholders/128x128.png" />
+          <img src="https://www.cimentoitambe.com.br/wp-content/uploads/2021/11/Al-Janoub.jpg" />
         </figure>
         <div class="buttons">
           <b-button type="is-warning" expanded>Qatar</b-button>
@@ -74,7 +74,7 @@
       <div class="column is-3">
         <div class="estadio mb-5">
           <figure class="image is-150x150">
-            <img src="https://bulma.io/images/placeholders/128x128.png" />
+            <img src="https://www.cimentoitambe.com.br/wp-content/uploads/2021/11/Al-Janoub.jpg" />
           </figure>
           <div class="buttons">
             <b-button type="is-warning" expanded>Al Thumama</b-button>
@@ -83,7 +83,7 @@
 
         <div class="estadio mb-5">
           <figure class="image is-150x150">
-            <img src="https://bulma.io/images/placeholders/128x128.png" />
+            <img src="https://www.cimentoitambe.com.br/wp-content/uploads/2021/11/Al-Janoub.jpg" />
           </figure>
           <div class="buttons">
             <b-button type="is-warning" expanded>Al Janoub</b-button>
