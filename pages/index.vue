@@ -19,224 +19,243 @@
     </section>
     <section class="section mt-4">
 
-      <!-- coluna 1-->
-
-      <div class="columns">
-        <div class="column is-6">
-          <!-- Grupo A-->
+      <div class="columns is-multiline">
+        <div v-for ="grupo in grupos" :key="grupo.nome"   class="column is-3">
           <div>
-            <h2 class="title is-2 has-text-centered">Grupo A</h2>
+              <h2 class="title is-2 has-text-centered">{{grupo.nome}}</h2>
 
 
-            <div class="buttons">
-              <b-button type="is-warning" expanded>
-                Qatar   
-              </b-button>
-              
+              <div v-for="selecao in grupo.selecoes" :key="selecao.nome" class="buttons">
+                <b-button type="is-primary" expanded>
+                  <img style="height: 30px;"
+                    :src="selecao.bandeira"
+                    alt="">
+                  {{selecao.nome}}
+                </b-button>
+              </div>
             </div>
-            
-            <div class="buttons">
-              <b-button type="is-warning" expanded> Equador</b-button>
-            </div>
-            <div class="buttons">
-              <b-button type="is-warning" expanded> Senegal</b-button>
-            </div>
-            <div class="buttons">
-              <b-button type="is-warning" expanded> Holanda</b-button>
-            </div>
-
-
-          </div>
-          <!-- Grupo C-->
-          <div class="mt-6">
-            <h2 class="title is-2 has-text-centered">Grupo C</h2>
-            <ul>
-              <div class="buttons">
-                <b-button type="is-warning" expanded>
-                  <li>Argentina</li>
-                </b-button>
-              </div>
-              <div class="buttons">
-                <b-button type="is-warning" expanded>
-                  <li>Arábia Saudita</li>
-                </b-button>
-              </div>
-              <div class="buttons">
-                <b-button type="is-warning" expanded>
-                  <li>México</li>
-                </b-button>
-              </div>
-              <div class="buttons">
-                <b-button type="is-warning" expanded>
-                  <li>Polônia</li>
-                </b-button>
-              </div>
-            </ul>
-          </div>
-          <!-- Grupo E-->
-          <div class="mt-6">
-            <h2 class="title is-2 has-text-centered">Grupo E</h2>
-            <ul>
-              <div class="buttons">
-                <b-button type="is-warning" expanded>
-                  <li>Espanha</li>
-                </b-button>
-              </div>
-              <div class="buttons">
-                <b-button type="is-warning" expanded>
-                  <li>Costa Rica</li>
-                </b-button>
-              </div>
-              <div class="buttons">
-                <b-button type="is-warning" expanded>
-                  <li>Alemanha</li>
-                </b-button>
-              </div>
-              <div class="buttons">
-                <b-button type="is-warning" expanded>
-                  <li>Japão</li>
-                </b-button>
-              </div>
-            </ul>
-          </div>
-          <!-- Grupo G-->
-          <div class="mt-6">
-            <h2 class="title is-2 has-text-centered">Grupo G</h2>
-            <ul>
-              <div class="buttons">
-                <b-button type="is-warning" expanded>
-                  <li>Brasil</li>
-                </b-button>
-              </div>
-              <div class="buttons">
-                <b-button type="is-warning" expanded>
-                  <li>Sérvia</li>
-                </b-button>
-              </div>
-              <div class="buttons">
-                <b-button type="is-warning" expanded>
-                  <li>Suiça</li>
-                </b-button>
-              </div>
-              <div class="buttons">
-                <b-button type="is-warning" expanded>
-                  <li>Camarões</li>
-                </b-button>
-              </div>
-            </ul>
-          </div>
-
-          <!-- coluna 2-->
-
         </div>
-        <div class="column is-6">
-          <!-- Grupo B-->
-          <div>
-            <h2 class="title is-2 has-text-centered">Grupo B</h2>
-            <ul>
-              <div class="buttons">
-                <b-button type="is-warning" expanded>
-                  <li>Inglaterra</li>
-                </b-button>
-              </div>
-              <div class="buttons">
-                <b-button type="is-warning" expanded>
-                  <li>Irã</li>
-                </b-button>
-              </div>
-              <div class="buttons">
-                <b-button type="is-warning" expanded>
-                  <li>Estados Unidos</li>
-                </b-button>
-              </div>
-              <div class="buttons">
-                <b-button type="is-warning" expanded>
-                  <li>País de Gales</li>
-                </b-button>
-              </div>
-            </ul>
-          </div>
-          <!-- Grupo D-->
-          <div class="mt-6">
-            <h2 class="title is-2 has-text-centered">Grupo D</h2>
-            <ul>
-              <div class="buttons">
-                <b-button type="is-warning" expanded>
-                  <li>França</li>
-                </b-button>
-              </div>
-              <div class="buttons">
-                <b-button type="is-warning" expanded>
-                  <li>Australia</li>
-                </b-button>
-              </div>
-              <div class="buttons">
-                <b-button type="is-warning" expanded>
-                  <li>Dinamarca</li>
-                </b-button>
-              </div>
-              <div class="buttons">
-                <b-button type="is-warning" expanded>
-                  <li>Turquia</li>
-                </b-button>
-              </div>
-            </ul>
-          </div>
-          <!-- Grupo F-->
-          <div class="mt-6">
-            <h2 class="title is-2 has-text-centered">Grupo F</h2>
-            <ul>
-              <div class="buttons">
-                <b-button type="is-warning" expanded>
-                  <li>Bélgica</li>
-                </b-button>
-              </div>
-              <div class="buttons">
-                <b-button type="is-warning" expanded>
-                  <li>Canadá</li>
-                </b-button>
-              </div>
-              <div class="buttons">
-                <b-button type="is-warning" expanded>
-                  <li>Marrocos</li>
-                </b-button>
-              </div>
-              <div class="buttons">
-                <b-button type="is-warning" expanded>
-                  <li>Croácia</li>
-                </b-button>
-              </div>
-            </ul>
-          </div>
-          <!-- Grupo H-->
-          <div class="mt-6">
-            <h2 class="title is-2 has-text-centered">Grupo H</h2>
-            <ul>
-              <div class="buttons">
-                <b-button type="is-warning" expanded>
-                  <li>Portugal</li>
-                </b-button>
-              </div>
-              <div class="buttons">
-                <b-button type="is-warning" expanded>
-                  <li>Gana</li>
-                </b-button>
-              </div>
-              <div class="buttons">
-                <b-button type="is-warning" expanded>
-                  <li>Uruguai</li>
-                </b-button>
-              </div>
-              <div class="buttons">
-                <b-button type="is-warning" expanded>
-                  <li>Coreia do Sul</li>
-                </b-button>
-              </div>
-            </ul>
-          </div>
-        </div>
-      </div>
+      </div>     
     </section>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      grupos: [
+        {
+          nome: "Grupo A",
+          selecoes: [
+            {
+              nome: "Qatar",
+              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+            },
+            {
+              nome: "Equador",
+              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+            },
+
+            {
+              nome: "Senegal",
+              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+            },
+
+            {
+              nome: "Holanda",
+              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+            }
+          ]
+        },
+
+        {
+          nome: "Grupo B",
+          selecoes: [
+            {
+              nome: "Inglaterra",
+              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+            },
+
+            {
+              nome: "Iran",
+              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+            },
+
+            {
+              nome: "Estados Unidos",
+              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+            },
+
+            {
+              nome: "Pais de Gales",
+              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+            }
+
+          ]
+        },
+
+        {
+          nome: "Grupo C",
+          selecoes: [
+            {
+              nome: "Argentina",
+              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+            },
+
+            {
+              nome: "Arabia Saudita",
+              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+            },
+
+            {
+              nome: "Mexico",
+              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+            },
+
+            {
+              nome: "Polonia",
+              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+            }
+
+          ]
+        },
+
+        {
+          nome: "Grupo D",
+          selecoes: [
+            {
+              nome: "Franca",
+              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+            },
+
+            {
+              nome: "Australia",
+              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+            },
+
+            {
+              nome: "Dinamarca",
+              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+            },
+
+            {
+              nome: "Tunisia",
+              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+            }
+
+          ]
+        },
+
+        {
+          nome: "Grupo D",
+          selecoes: [
+            {
+              nome: "Franca",
+              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+            },
+
+            {
+              nome: "Australia",
+              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+            },
+
+            {
+              nome: "Dinamarca",
+              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+            },
+
+            {
+              nome: "Tunisia",
+              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+            }
+
+          ]
+        },
+
+        {
+          nome: "Grupo D",
+          selecoes: [
+            {
+              nome: "Franca",
+              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+            },
+
+            {
+              nome: "Australia",
+              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+            },
+
+            {
+              nome: "Dinamarca",
+              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+            },
+
+            {
+              nome: "Tunisia",
+              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+            }
+
+          ]
+        },
+
+        {
+          nome: "Grupo D",
+          selecoes: [
+            {
+              nome: "Franca",
+              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+            },
+
+            {
+              nome: "Australia",
+              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+            },
+
+            {
+              nome: "Dinamarca",
+              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+            },
+
+            {
+              nome: "Tunisia",
+              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+            }
+
+          ]
+        },
+
+        {
+          nome: "Grupo D",
+          selecoes: [
+            {
+              nome: "Franca",
+              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+            },
+
+            {
+              nome: "Australia",
+              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+            },
+
+            {
+              nome: "Dinamarca",
+              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+            },
+
+            {
+              nome: "Tunisia",
+              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+            }
+
+          ]
+        }
+
+      ]
+    }
+  },
+  methods: {
+  }
+}
+</script>
 

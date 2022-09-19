@@ -4,9 +4,9 @@
     <b-navbar shadow="true">
         <template #brand>
             <b-navbar-item tag="router-link" :to="{ path: '/' }">
-                <img
-                    src="https://raw.githubusercontent.com/buefy/buefy/dev/static/img/buefy-logo.png"
-                    alt="Lightweight UI components for Vue.js based on Bulma"
+                <img style="max-height:70px"
+                    src="https://github.com/benhurgoncales/copei-frontend/blob/master/assets/copeilogo.png?raw=true"
+                    alt="Logo"
                 >
             </b-navbar-item>
         </template>
@@ -28,7 +28,7 @@
         <template #end>
             <b-navbar-item tag="div">
                 <div class="buttons">
-                    <a class="button is-primary">
+                    <a class="button is-primary" href="/cadastro">
                         <strong>Cadastre-se</strong>
                     </a>
                     <a class="button is-light">

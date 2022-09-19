@@ -37,7 +37,7 @@
                   <img src="../assets/atleta.png"/>
                 </figure>
                 <div class="buttons">
-                  <b-button type="is-warning" expanded> Casemiro </b-button>
+                  <b-button type="is-primary" expanded> Casemiro </b-button>
                 </div>
               </div>
               
@@ -47,7 +47,7 @@
                   <img src="../assets/atleta.png" />
                 </figure>
                 <div class="buttons">
-                  <b-button type="is-warning" expanded> Casemiro </b-button>
+                  <b-button type="is-primary" expanded> Casemiro </b-button>
                 </div>
               </div>
             </div>
@@ -60,7 +60,7 @@
                   <img src="../assets/atleta.png" />
                 </figure>
                 <div class="buttons">
-                  <b-button type="is-warning" expanded> Casemiro </b-button>
+                  <b-button type="is-primary" expanded> Casemiro </b-button>
                 </div>
               </div>
               
@@ -70,7 +70,7 @@
                   <img src="../assets/atleta.png"/>
                 </figure>
                 <div class="buttons">
-                  <b-button type="is-warning" expanded> Casemiro </b-button>
+                  <b-button type="is-primary" expanded> Casemiro </b-button>
                 </div>
               </div>
             </div>
@@ -83,7 +83,7 @@
                   <img src="../assets/atleta.png" />
                 </figure>
                 <div class="buttons">
-                  <b-button type="is-warning" expanded> Casemiro </b-button>
+                  <b-button type="is-primary" expanded> Casemiro </b-button>
                 </div>
               </div>
               
@@ -93,7 +93,7 @@
                   <img src="../assets/atleta.png" />
                 </figure>
                 <div class="buttons">
-                  <b-button type="is-warning" expanded> Casemiro </b-button>
+                  <b-button type="is-primary" expanded> Casemiro </b-button>
                 </div>
               </div>
             </div>
@@ -105,7 +105,7 @@
                   <img src="../assets/atleta.png"/>
                 </figure>
                 <div class="buttons">
-                  <b-button type="is-warning" expanded> Casemiro </b-button>
+                  <b-button type="is-primary" expanded> Casemiro </b-button>
                 </div>
               </div>
               
@@ -115,7 +115,7 @@
                   <img src="../assets/atleta.png" />
                 </figure>
                 <div class="buttons">
-                  <b-button type="is-warning" expanded> Alisson </b-button>
+                  <b-button type="is-primary" expanded> Alisson </b-button>
                 </div>
               </div>
             </div>
@@ -132,7 +132,7 @@
                   <img src="../assets/atleta.png" />
                 </figure>
                 <div class="buttons">
-                  <b-button type="is-warning" expanded>
+                  <b-button type="is-primary" expanded>
                     Al bayt Satadium
                   </b-button>
                 </div>
@@ -143,7 +143,7 @@
                   <img src="../assets/atleta.png" />
                 </figure>
                 <div class="buttons">
-                  <b-button type="is-warning" expanded>
+                  <b-button type="is-primary" expanded>
                     Al bayt Satadium
                   </b-button>
                 </div>
@@ -154,7 +154,7 @@
                   <img src="../assets/atleta.png" />
                 </figure>
                 <div class="buttons">
-                  <b-button type="is-warning" expanded>
+                  <b-button type="is-primary" expanded>
                     Al bayt Satadium
                   </b-button>
                 </div>
@@ -166,7 +166,7 @@
                   <img src="../assets/atleta.png" />
                 </figure>
                 <div class="buttons">
-                  <b-button type="is-warning" expanded>
+                  <b-button type="is-primary" expanded>
                     Al bayt Satadium
                   </b-button>
                 </div>
@@ -177,7 +177,7 @@
                   <img src="../assets/atleta.png" />
                 </figure>
                 <div class="buttons">
-                  <b-button type="is-warning" expanded>
+                  <b-button type="is-primary" expanded>
                     Al bayt Satadium
                   </b-button>
                 </div>
@@ -188,7 +188,7 @@
                   <img src="../assets/atleta.png" />
                 </figure>
                 <div class="buttons">
-                  <b-button type="is-warning" expanded>
+                  <b-button type="is-primary" expanded>
                     Al bayt Satadium
                   </b-button>
                 </div>
@@ -200,7 +200,7 @@
                   <img src="../assets/atleta.png" />
                 </figure>
                 <div class="buttons">
-                  <b-button type="is-warning" expanded>
+                  <b-button type="is-primary" expanded>
                     Al bayt Satadium
                   </b-button>
                 </div>
@@ -211,7 +211,7 @@
                   <img src="../assets/atleta.png" />
                 </figure>
                 <div class="buttons">
-                  <b-button type="is-warning" expanded>
+                  <b-button type="is-primary" expanded>
                     Al bayt Satadium
                   </b-button>
                 </div>
@@ -222,7 +222,7 @@
                   <img src="../assets/atleta.png" />
                 </figure>
                 <div class="buttons">
-                  <b-button type="is-warning" expanded>
+                  <b-button type="is-primary" expanded>
                     Al bayt Satadium
                   </b-button>
                 </div>
@@ -234,7 +234,7 @@
                   <img src="../assets/atleta.png" />
                 </figure>
                 <div class="buttons">
-                  <b-button type="is-warning" expanded>
+                  <b-button type="is-primary" expanded>
                     Al bayt Satadium
                   </b-button>
                 </div>
@@ -245,7 +245,7 @@
                   <img src="../assets/atleta.png" />
                 </figure>
                 <div class="buttons">
-                  <b-button type="is-warning" expanded>
+                  <b-button type="is-primary" expanded>
                     Al bayt Satadium
                   </b-button>
                 </div>
@@ -256,7 +256,7 @@
                   <img src="../assets/atleta.png" />
                 </figure>
                 <div class="buttons">
-                  <b-button type="is-warning" expanded>
+                  <b-button type="is-primary" expanded>
                     Al bayt Satadium
                   </b-button>
                 </div>

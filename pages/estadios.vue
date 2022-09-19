@@ -13,7 +13,7 @@
             <img src="https://www.cimentoitambe.com.br/wp-content/uploads/2021/11/Al-Janoub.jpg" />
           </figure>
           <div class="buttons">
-            <b-button type="is-warning" expanded> Al bayt Satadium </b-button>
+            <b-button type="is-primary" expanded> Al bayt Satadium </b-button>
           </div>
         </div>
 
@@ -23,7 +23,7 @@
             <img src="https://www.cimentoitambe.com.br/wp-content/uploads/2021/11/Al-Janoub.jpg"/>
           </figure>
           <div class="buttons">
-            <b-button type="is-warning" expanded>Qatar</b-button>
+            <b-button type="is-primary" expanded>Qatar</b-button>
           </div>
         </div>
       </div>
@@ -35,7 +35,7 @@
             <img src="https://www.cimentoitambe.com.br/wp-content/uploads/2021/11/Al-Janoub.jpg" />
           </figure>
           <div class="buttons">
-            <b-button type="is-warning" expanded
+            <b-button type="is-primary" expanded
               >Khalifa International</b-button
             >
           </div>
@@ -46,7 +46,7 @@
             <img src="https://www.cimentoitambe.com.br/wp-content/uploads/2021/11/Al-Janoub.jpg" />
           </figure>
           <div class="buttons">
-            <b-button type="is-warning" expanded>Stadium 974</b-button>
+            <b-button type="is-primary" expanded>Stadium 974</b-button>
           </div>
         </div>
       </div>
@@ -58,14 +58,14 @@
           <img src="https://www.cimentoitambe.com.br/wp-content/uploads/2021/11/Al-Janoub.jpg" />
         </figure>
         <div class="buttons">
-          <b-button type="is-warning" expanded>Qatar</b-button>
+          <b-button type="is-primary" expanded>Qatar</b-button>
         </div>
 
         <figure class="image is-150x150">
           <img src="https://www.cimentoitambe.com.br/wp-content/uploads/2021/11/Al-Janoub.jpg" />
         </figure>
         <div class="buttons">
-          <b-button type="is-warning" expanded>Qatar</b-button>
+          <b-button type="is-primary" expanded>Qatar</b-button>
         </div>
       </div>
 
@@ -77,7 +77,7 @@
             <img src="https://www.cimentoitambe.com.br/wp-content/uploads/2021/11/Al-Janoub.jpg" />
           </figure>
           <div class="buttons">
-            <b-button type="is-warning" expanded>Al Thumama</b-button>
+            <b-button type="is-primary" expanded>Al Thumama</b-button>
           </div>
         </div>
 
@@ -86,7 +86,7 @@
             <img src="https://www.cimentoitambe.com.br/wp-content/uploads/2021/11/Al-Janoub.jpg" />
           </figure>
           <div class="buttons">
-            <b-button type="is-warning" expanded>Al Janoub</b-button>
+            <b-button type="is-primary" expanded>Al Janoub</b-button>
           </div>
         </div>
       </div>
