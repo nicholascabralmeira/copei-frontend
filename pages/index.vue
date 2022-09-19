@@ -7,13 +7,13 @@
     <section>
       <b-carousel>
         <b-carousel-item>
-          <b-image class="image" src="https://picsum.photos/id/431/1230/300"></b-image>
+          <b-image class="image"   :src="require('@/assets/capa1.png')"></b-image>
         </b-carousel-item>
         <b-carousel-item>
-          <b-image class="image" src="https://picsum.photos/id/432/1230/300"></b-image>
+          <b-image class="image" :src="require('@/assets/capa2.png')"></b-image>
         </b-carousel-item>
         <b-carousel-item>
-          <b-image class="image" src="https://picsum.photos/id/433/1230/300"></b-image>
+          <b-image class="image" :src="require('@/assets/capa3.png')"></b-image>
         </b-carousel-item>
       </b-carousel>
     </section>
@@ -25,14 +25,14 @@
               <h2 class="title is-2 has-text-centered">{{grupo.nome}}</h2>
 
 
-              <div v-for="selecao in grupo.selecoes" :key="selecao.nome" class="buttons">
+              <a div v-for="selecao in grupo.selecoes" :key="selecao.nome"  class="buttons" href="/selecoes" >
                 <b-button type="is-primary" expanded>
                   <img style="height: 30px;"
                     :src="selecao.bandeira"
                     alt="">
                   {{selecao.nome}}
                 </b-button>
-              </div>
+              </a>
             </div>
         </div>
       </div>     
@@ -54,17 +54,17 @@ export default {
             },
             {
               nome: "Equador",
-              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+              bandeira: "https://cdn.iconscout.com/icon/free/png-256/ecuador-flag-country-nation-union-empire-32962.png"
             },
 
             {
               nome: "Senegal",
-              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+              bandeira: "https://flagdownload.com/wp-content/uploads/Flag_of_Senegal_Flat_Square-256x256.png"
             },
 
             {
               nome: "Holanda",
-              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+              bandeira: "https://hth.guide/wp-content/uploads/country_icons/netherlands_flag-png-square-icon-256.png"
             }
           ]
         },
@@ -74,22 +74,22 @@ export default {
           selecoes: [
             {
               nome: "Inglaterra",
-              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+              bandeira: "https://cdn.iconscout.com/icon/free/png-256/england-3596694-2998737.png"
             },
 
             {
               nome: "Iran",
-              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+              bandeira: "https://cdn-icons-png.flaticon.com/128/6211/6211460.png"
             },
 
             {
               nome: "Estados Unidos",
-              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+              bandeira: "https://igrejacristovive.com.br/wp-content/uploads/2022/06/flag-us.svg"
             },
 
             {
               nome: "Pais de Gales",
-              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+              bandeira: "https://livinlavidarick.files.wordpress.com/2016/02/flag_of_wales_2-svg.png"
             }
 
           ]
@@ -100,22 +100,22 @@ export default {
           selecoes: [
             {
               nome: "Argentina",
-              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+              bandeira: "https://static3.depositphotos.com/1000572/119/i/450/depositphotos_1196003-stock-photo-flag-of-argentine.jpg"
             },
 
             {
               nome: "Arabia Saudita",
-              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+              bandeira: "https://portallubes.com.br/wp-content/uploads/2020/04/Flag_of_Saudi_Arabia.svg_.png"
             },
 
             {
               nome: "Mexico",
-              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+              bandeira: "https://www.infomigrantes.com/wp-content/uploads/2020/12/ilustracion-bandera-mexico_53876-18169.jpg"
             },
 
             {
               nome: "Polonia",
-              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+              bandeira: "https://i.pinimg.com/736x/ec/de/01/ecde018381198779faf1ea9c60119d7f.jpg"
             }
 
           ]
@@ -126,126 +126,126 @@ export default {
           selecoes: [
             {
               nome: "Franca",
-              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+              bandeira: "https://static.todamateria.com.br/upload/fr/an/frana_a.jpg"
             },
 
             {
               nome: "Australia",
-              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+              bandeira: "https://a-static.mlcdn.com.br/800x560/bandeira-australia-estampada-uma-face-090x128m-patria-bordados/patriabandeiras/1013p/d39fe2ccdaf0da6d78d40f243f21f58e.jpg"
             },
 
             {
               nome: "Dinamarca",
-              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+              bandeira: "https://comprarbandeira.com.br/wp-content/uploads/2021/02/Dinamarca.jpg"
             },
 
             {
               nome: "Tunisia",
-              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+              bandeira: "http://geo5.net/imagens/bandeira-do-imperio-otomano-2000px.png"
             }
 
           ]
         },
 
         {
-          nome: "Grupo D",
+          nome: "Grupo E",
           selecoes: [
             {
-              nome: "Franca",
-              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+              nome: "Espanha",
+              bandeira: "https://i.pinimg.com/originals/5e/5a/0d/5e5a0d9f894e9a426a6a573cf5e31027.jpg"
             },
 
             {
-              nome: "Australia",
-              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+              nome: "Costa Rica",
+              bandeira: "https://impariamo.com.br/wp-content/uploads/2019/04/Bandeira-Costa-Rica-900x540.png"
             },
 
             {
-              nome: "Dinamarca",
-              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+              nome: "Alemanha",
+              bandeira: "https://s3.amazonaws.com/images.wpr.com/flag-pages/png250/de.png"
             },
 
             {
-              nome: "Tunisia",
-              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+              nome: "Japao",
+              bandeira: "https://st.depositphotos.com/1022597/3292/i/600/depositphotos_32924593-stock-photo-flag-of-japan-vignetted.jpg"
             }
 
           ]
         },
 
         {
-          nome: "Grupo D",
+          nome: "Grupo F",
           selecoes: [
             {
-              nome: "Franca",
-              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+              nome: "Belgica",
+              bandeira: "https://i.pinimg.com/736x/ab/38/61/ab386157861d48ee217ddbf9f7af9188.jpg"
             },
 
             {
-              nome: "Australia",
-              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+              nome: "Canada",
+              bandeira: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Canada_%283-2%29.svg/640px-Flag_of_Canada_%283-2%29.svg.png"
             },
 
             {
-              nome: "Dinamarca",
-              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+              nome: "Marrocos",
+              bandeira: "https://i.pinimg.com/736x/df/03/0e/df030e22bc648c1a30406ebbef2fbbd7--national-flag-north-africa.jpg"
             },
 
             {
-              nome: "Tunisia",
-              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+              nome: "Croacia",
+              bandeira: "https://www.estudopratico.com.br/wp-content/uploads/2016/06/bandeira-croacia.jpg"
             }
 
           ]
         },
 
         {
-          nome: "Grupo D",
+          nome: "Grupo G",
           selecoes: [
             {
-              nome: "Franca",
-              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+              nome: "Brasil",
+              bandeira: "https://static.todamateria.com.br/upload/ba/nd/bandeiradobrasil-2-cke.jpg"
             },
 
             {
-              nome: "Australia",
-              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+              nome: "Servia",
+              bandeira: "https://www.lifeder.com/wp-content/uploads/2019/11/Serbia7.png"
             },
 
             {
-              nome: "Dinamarca",
-              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+              nome: "Suica",
+              bandeira: "https://s4.static.brasilescola.uol.com.br/be/2022/04/bandeira-da-suica.jpg"
             },
 
             {
-              nome: "Tunisia",
-              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+              nome: "Camaroes",
+              bandeira: "https://cidadeolimpica.com.br/wp-content/uploads/2021/08/bandeira-camaroes.png"
             }
 
           ]
         },
 
         {
-          nome: "Grupo D",
+          nome: "Grupo H",
           selecoes: [
             {
-              nome: "Franca",
-              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+              nome: "Portugal",
+              bandeira: "https://www.leme.pt/magazine/efemerides/0630/0100.jpg"
             },
 
             {
-              nome: "Australia",
-              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+              nome: "Gana",
+              bandeira: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Ghana.svg/1200px-Flag_of_Ghana.svg.png"
             },
 
             {
-              nome: "Dinamarca",
-              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+              nome: "Uruguai",
+              bandeira: "https://a-static.mlcdn.com.br/1500x1500/bandeira-oficial-do-uruguai-jc-bandeiras/inoxstore/banduru/b4eabd7ab8315fae0b9c69d5cd3b7d65.jpg"
             },
 
             {
-              nome: "Tunisia",
-              bandeira: "https://cdn.iconscout.com/icon/free/png-256/qatar-flag-country-nation-union-empire-33060.png"
+              nome: "Coreia do Sul",
+              bandeira: "https://maestrovirtuale.com/wp-content/uploads/2019/10/640px-Flag_of_South_Korea_1945%E2%80%931948.svg_-1.png"
             }
 
           ]
