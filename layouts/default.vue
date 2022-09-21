@@ -31,7 +31,7 @@
                     <a class="button is-primary" href="/cadastro">
                         <strong>Cadastre-se</strong>
                     </a>
-                    <a class="button is-light">
+                    <a class="button is-light" href="/login">
                         Login
                     </a>
                 </div>

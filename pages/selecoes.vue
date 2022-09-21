@@ -267,3 +267,27 @@
       </div>
   </section>
 </template>
+
+<script>
+  export default {
+    data() {
+      return {
+        times: [
+          { 
+            nometime: "Brasil",
+            bandeira: "https://static.todamateria.com.br/upload/ba/nd/bandeiradobrasil-2-cke.jpg",
+            fototime: "../assets/time.png",
+            jogador: [
+              {
+                nomejogador: "Qatar",
+                fotojogador: "../assets/atleta.png"
+              },
+            ]
+          },
+        ]
+      }
+    },
+    methods: {
+    }
+  }
+  </script>
